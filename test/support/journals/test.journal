@@ -1,0 +1,13 @@
+2024-05-01 * opening balances
+    assets:ABC:current                   = €1000,00
+    equity:opening balances
+
+
+2024-05-01 * FOOBAR  ; Stuff
+    assets:Bunq:current         	        €-4,70
+    expenses:Groceries                       €4,70
+
+
+2024-05-01 * AAA  ; Stuff
+    assets:Bunq:current         	        €-100,70
+    expenses:Electricity

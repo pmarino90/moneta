@@ -1,0 +1,32 @@
+<header class="print:hidden px-4 sm:px-6 lg:px-8 sticky top-0 bg-white py-2">
+  <div class="flex justify-between">
+    <div>
+      Moneta
+    </div>
+    <nav>
+      <ul class="flex space-x-2">
+        <li>
+          <.link class="text-blue-700 hover:underline" navigate={~p"/reports/income_statement"}>
+            Income Statement
+          </.link>
+        </li>
+        <li class="text-slate-400">
+          <.link class="text-blue-700 hover:underline" navigate={~p"/reports/balance_sheet"}>
+            Balance Sheet
+          </.link>
+        </li>
+        <li class="text-slate-400">
+          <.link class="text-blue-700 hover:underline" navigate={~p"/settings"}>
+            Settings
+          </.link>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main class="print:px-2 print:py-2 px-4 py-5 sm:px-6 lg:px-8">
+  <div>
+    <.flash_group flash={@flash} />
+    <%= @inner_content %>
+  </div>
+</main>
