@@ -62,7 +62,8 @@ defmodule Moneta.MixProject do
       {:ex_cldr_dates_times, "~> 2.0"},
       {:ex_cldr_numbers, "~> 2.33"},
       {:mix_test_watch, "~> 1.0", only: [:dev, :test], runtime: false},
-      {:credo, "~> 1.7", only: [:dev, :test], runtime: false}
+      {:credo, "~> 1.7", only: [:dev, :test], runtime: false},
+      {:mneme, ">= 0.0.0", only: [:dev, :test]}
     ]
   end
 
