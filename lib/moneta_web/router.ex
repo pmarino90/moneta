@@ -23,6 +23,7 @@ defmodule MonetaWeb.Router do
       live "/reports/income_statement", IncomeStatementLive
       live "/reports/balance_sheet", BalanceSheetLive
       live "/settings", SettingsLive
+      live "/transactions", TransactionsLive
     end
   end
 
